@@ -1,4 +1,4 @@
-from google.adk.agents.llm_agent import LlmAgent
+from google.adk.agents import Agent
 from google.adk.tools.mcp_tool.mcp_toolset import MCPToolset, StdioServerParameters
 
 async def create_agent():
@@ -15,7 +15,7 @@ async def create_agent():
       )
   )
 
-  agent = LlmAgent(
+  agent = Agent(
       model='gemini-2.0-flash',
       name='code_docs_agent',
       description=
