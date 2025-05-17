@@ -4,40 +4,12 @@
 Esse projeto visa implementar um agente conectado a MCP tools locais e de mercado
 
 ### Goals
-- [ ] Goal 1 Conectar ao MCP system-files
-- [ ] Goal 2 Conectar ao MCP context7
-- [ ] Goal 3 Utilizar um agente ADK conectado aos MCP's
-
-
-# Requirements
-
-### Functional Requirements
-1. Requirement 1
-    - Sub-requirement A
-    - Sub-requirement B
-
-2. Requirement 2
-    - Sub-requirement A
-    - Sub-requirement B
-
-### Non-Functional Requirements
-    - Performance
-    - Security
-    - Scalability
-
-## Timeline
-    - Phase 1: Planning
-    - Phase 2: Development
-    - Phase 3: Testing
-    - Phase 4: Launch
-
-## Success Metrics
-    - Metric 1
-    - Metric 2
-
-## Stakeholders
-    - Product Manager:
-    - Engineering Lead:
-    - Design Lead:
-    - QA Lead:
+- [x] Goal 1 Conectar ao MCP file-system
+- [x] Goal 2 Conectar ao MCP context7
+- [x] Goal 3 Conectar ao MCP git
+- [x] Goal 4 Implementar o agente file_system
+- [x] Goal 5 Implementar o agente code_docs
+- [x] Goal 6 Implementar o agente git
+- [x] Goal 7 implementar o agente coordanador
+- [ ] Goal 8 Melhorar os system prompts do coordenador
 
