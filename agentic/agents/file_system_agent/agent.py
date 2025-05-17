@@ -1,4 +1,4 @@
-from google.adk.agents.llm_agent import LlmAgent
+from google.adk.agents import Agent
 from google.adk.tools.mcp_tool.mcp_toolset import MCPToolset, StdioServerParameters
 
 async def create_agent():
@@ -11,12 +11,12 @@ async def create_agent():
           args=[
             "-y",
             "@modelcontextprotocol/server-filesystem",
-            "/mnt/c/dev/",
+            "/home/gcaldeira/www/codes/",
           ],
       )
   )
 
-  agent = LlmAgent(
+  agent = Agent(
       model='gemini-2.0-flash',
       name='file_system_agent',
       description=
