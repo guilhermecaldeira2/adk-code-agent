@@ -26,8 +26,8 @@ async def create_agent():
     name='coordinator_agent',
     description='Agent that can access sub agents to help user writing code, accessing code docs, read and write files.',
     instruction=
-      'Your role is help user writing code'
-      ' you need to access sub agents to do that.',
+      'Your role is help user writing code, for that you need to manage and delagate instructions to sub agents'
+      '',
     sub_agents=[
       file_system_agent,
       code_docs_agent,
